@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!-- Created By Harendra Prajapati -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="loader.css">
+    
+    <style>
+    
+    .tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+    </style>
+
+</head>
+<body>
+    <div id="preloader"></div>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">StudyHub<span>Tutorial.</span></a></div>
+            <ul class="menu">
+                
+                <li><a href="index.php" class="menu-btn">HOME</a></li>
+                <!-- <li><a href="#home" class="menu-btn">C</a></li> -->
+                <!-- <li><a href="#about" class="menu-btn">C++</a></li> -->
+                <li><a href="java.html" class="menu-btn">JAVA</a></li>
+                <!-- <li><a href="python.html" class="menu-btn">PYTHON</a></li>
+                <li><a href="html.html" class="menu-btn">HTML</a></li>
+                <li><a href="css.html" class="menu-btn">CSS</a></li> -->
+                <li><a href="mac.html" class="menu-btn">MAC TIPS</a></li>
+                <li><a href="youtube.html" class="menu-btn">YOUTUBE TIPS</a></li>
+                <li><a href="Entertainment.html" class="menu-btn">Entertainment</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home1" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Live Projects(Click to check)</div><br><br>
+                 <a href="https://tanyafinance.com/" class="menu-btn">Tanya Finance</a><br>
+                 <a href="https://tanyafinance.com/harendraprajapati/zym/jsp/index.html" class="menu-btn">Gym Project</a><br><br><br>
+                   <img src="images/swipeup.gif" 
+                width="100" 
+                height="100" />
+                <!-- <a href="python.jsp">PYTHON</a><br>
+                <a href="html.jsp">HTML</a><br>
+                <a href="css.jsp">CSS</a><br> -->
+                <!--<a href="https://github.com/hellooharendra/Gender_Age_Detection_System_ML_Project" class="menu-btn">Download Projects</a><br>-->
+            </div>
+        </div>
+    </section> <br><br><br>
+<div >
+    <!--<h2 style="text-align:center">Java Script Assignments</h2><br><br>-->
+    <!--<a href="">Assignment</a><br>-->
+    <div style="text-align:center">
+        <h2 >Download Projects</h2><br><br>
+    
+    <a href="https://github.com/hellooharendra/Gender_Age_Detection_System_ML_Project" class="menu-btn">Download Projects</a><br>
+        <h2>Face Mask Detection</h2><br><br>
+    <a href="https://github.com/hellooharendra/Gender_Age_Detection_System_ML_Project" style="text-decoration: none; color: white; Background-color:blue;margin: 10px;padding: 10px;border-radius: 10px; ">Download Source code</a> <br><br><br><br>
+    <a href="synopsis/facemaskdetection.pdf" style="text-decoration: none; color: white; Background-color:green;margin: 10px;padding: 10px;border-radius: 10px; ">Download synopsis</a> <br><br><br><br>
+    
+    <h2 style="text-align:center">Age and Gender Detection</h2><br><br>
+    <a href="https://github.com/hellooharendra/Gender_Age_Detection_System_ML_Project" style="text-decoration: none; color: white; Background-color:blue;margin: 10px;padding: 10px;border-radius: 10px; ">Download Source code  </a>  <br><br><br><br>
+    <a href="synopsis/ageandgenderdetection.pdf" style="text-decoration: none; color: white; Background-color:green;margin: 10px;padding: 10px;border-radius: 10px; " >Download synopsis</a> <br><br><br><br>
+    
+    <h2 style="text-align:center">Tik Toy Game</h2><br><br>
+    <a href="https://github.com/hellooharendra/tik_toy_game_Machine_Learning" style="text-decoration: none; color: white; Background-color:blue;margin: 10px;padding: 10px;border-radius: 10px; ">Download Source code  </a>  <br><br><br><br>
+    
+    <h2 style="text-align:center">Food order Mini Project</h2><br><br>
+    <a href="https://github.com/hellooharendra/Food-Oroder-management-mini-project" style="text-decoration: none; color: white; Background-color:blue;margin: 10px;padding: 10px;border-radius: 10px; ">Download Source code  </a>  <br><br><br><br>
+      <h2 style="text-align:center">PortFolio</h2><br><br>
+    <a href="https://github.com/hellooharendra/portfoilo" style="text-decoration: none; color: white; Background-color:blue;margin: 10px;padding: 10px;border-radius: 10px; ">Download Source code  </a>  <br><br><br><br>
+        </div>
+<h2 style="text-align:center"> Try Codes</h2><br><br>
+
+<!--<input type="textarea" value="hello harendra " id="myInput">-->
+
+
+<!--<div class="tooltip">-->
+<!--<button onclick="myFunction()" onmouseout="outFunc()">-->
+<!--  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>-->
+<!--  Copy text-->
+<!--  </button>-->
+</div>
+
+<br><br><br>
+
+ <div style="display:inline-block; vertical-align:top;">
+        <!-- <button class="js-copy-bob-btn" id="mytooltip" >Set clipboard to BOB</button><br /><br> -->
+        <!--<button class="js-copy-jane-btn" class="mytooltip" >Set clipboard to JANE</button> -->
+      </div>
+      <!--content start here-->
+      <div style="display:inline-block;">
+        <textarea class="js-test-textarea" cols="35" rows="20"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is h1 heading</h1>
+</body>
+</html>
+      
+        </textarea>
+      </div>
+
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+   
+</div>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://github.com/harendraprajapati72">Harendra Prajapati</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <script>
+    function fallbackCopyTextToClipboard(text) {
+  var textArea = document.createElement("textarea");
+  textArea.value = text;
+  
+  // Avoid scrolling to bottom
+  textArea.style.top = "0";
+  textArea.style.left = "0";
+  textArea.style.position = "fixed";
+
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    console.log('Fallback: Copying text command was ' + msg);
+  } catch (err) {
+    console.error('Fallback: Oops, unable to copy', err);
+  }
+
+  document.body.removeChild(textArea);
+}
+function copyTextToClipboard(text) {
+  if (!navigator.clipboard) {
+    fallbackCopyTextToClipboard(text);
+    return;
+  }
+  navigator.clipboard.writeText(text).then(function() {
+    console.log('Async: Copying to clipboard was successful!');
+  }, function(err) {
+    console.error('Async: Could not copy text: ', err);
+  });
+}
+
+var copyBobBtn = document.querySelector('.js-copy-bob-btn'),
+  copyJaneBtn = document.querySelector('.js-copy-jane-btn');
+
+copyBobBtn.addEventListener('click', function(event) {
+  copyTextToClipboard('Bob');
+});
+
+
+copyJaneBtn.addEventListener('click', function(event) {
+  copyTextToClipboard('Jane');
+});
+</script>
+<Script>
+    var loader= document.getElementById("preloader");
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+
+    })
+ </Script>
+ 
+ <script>
+    function fallbackCopyTextToClipboard(text) {
+  var textArea = document.createElement("textarea");
+  textArea.value = text;
+  
+  // Avoid scrolling to bottom
+  textArea.style.top = "0";
+  textArea.style.left = "0";
+  textArea.style.position = "fixed";
+
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    console.log('Fallback: Copying text command was ' + msg);
+  } catch (err) {
+    console.error('Fallback: Oops, unable to copy', err);
+  }
+
+  document.body.removeChild(textArea);
+}
+function copyTextToClipboard(text) {
+  if (!navigator.clipboard) {
+    fallbackCopyTextToClipboard(text);
+    return;
+  }
+  navigator.clipboard.writeText(text).then(function() {
+    console.log('Async: Copying to clipboard was successful!');
+  }, function(err) {
+    console.error('Async: Could not copy text: ', err);
+  });
+}
+
+var copyBobBtn = document.querySelector('.js-copy-bob-btn'),
+  copyJaneBtn = document.querySelector('.js-copy-jane-btn');
+
+copyBobBtn.addEventListener('click', function(event) {
+  copyTextToClipboard('Bob');
+});
+
+
+copyJaneBtn.addEventListener('click', function(event) {
+  copyTextToClipboard('Jane');
+});
+</script>
+    
+</body>
+</html>
