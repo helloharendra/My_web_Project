@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str = prompt("Enter a string");
+var flag = false;
+for(var i=0; i<str.length; i++){
+    if(str[i]>='0' && str[i]<='9'){
+        flag = true;
+        break;
+    }
+}
+if(flag){
+    alert("String contains digit");
+}
+else{
+    alert("String does not contain digit");
+}
+    </script>
+    
+</body>
+</html>

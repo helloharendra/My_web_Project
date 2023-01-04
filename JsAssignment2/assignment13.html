@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title></title>
+</head>
+<body>
+<h2>Pattern matching</h2>
+    <script>
+        function valid_email(str)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+if(mailformat.test(str))
+{  
+document.write("Valid email address!");  
+}  
+else  
+{  
+document.write("You have entered an invalid email address!");  
+}
+}
+
+valid_email('harendraprajapati72@gmail.com');
+
+    </script>
+</body>
+</html>

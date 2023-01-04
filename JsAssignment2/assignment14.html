@@ -1,0 +1,26 @@
+
+<html>
+    <body>
+        <p>
+            <h3>Values as string are</h3>
+        document.write('I have 4 dogs.'); <br>
+        document.write('I have 4 cats.'); <br>
+        document.write('I have 4 rabits.'); <br>
+        </p>
+
+       <p> Couts are : <span id="display"></span></p>
+    
+    <script>
+    function countWords(str) {
+        
+        result=str.trim().replace(/\s+/g, ' ').split(' ').length;
+return result;
+    }
+    
+    document.write(countWords('I have 4 dogs.'));  
+    document.write(countWords('I\n have 4 cats.'));  
+    document.write(countWords('I  have 4 rabits.'));  
+    </script>
+    
+    </body>
+    </html>

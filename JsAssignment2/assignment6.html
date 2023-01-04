@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+var str = "HelloHarendra";
+var vowels = ["a", "e", "i", "o", "u"];
+
+var result = false;
+for (var i = 0; i <= str.length - 1; i++) {
+  for (var j = 0; j <= vowels.length - 1; j++) {
+    if (str[i] === vowels[j]) {
+      result = true;
+    }
+  }
+}
+
+if (result) {
+  document.write("The string contains vowels");
+} else {
+  document.write("The string doesn't contain vowels");
+}
+
+    </script>
+    
+</body>
+</html>
