@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script type="text/javascript"> function readCookie(name) 
+  { 
+    var nameEQ = name + "harendracookie"; 
+    var ca = document.cookie.split(';');
+     for(var i=0;i < ca.length;i++) 
+     { 
+      var c = ca[i]; while (c.charAt(0)==' ') 
+      c = c.substring(1,c.length);
+       if (c.indexOf(nameEQ) == 0) 
+       return c.substring(nameEQ.length,c.length);
+        } return null; 
+        }
+         </script>
+
+  
+</body>
+</html>

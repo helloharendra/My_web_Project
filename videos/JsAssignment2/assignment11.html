@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ <html> 
+    <head>
+        <title>Fruit</title>
+         <script type="text/javascript">
+          function showImage(fruit) { 
+            if (fruit == "apple")  { 
+                document.getElementById("image").src = "./images/apple.jpeg"; 
+                openwindow1();
+            }
+                 else if (fruit == "banana") {
+                     document.getElementById("image").src = "./images/banana.jpeg"
+                     openwindow2();
+                     }
+                      else if (fruit == "orange") {
+                         document.getElementById("image").src = "./images/orange.jpeg";
+                         openwindow3();
+                        } 
+                         } </script> </head>
+                          <body style="text-align: center;"> <h1>Fruit</h1> 
+                            <p>Roll over the name of a fruit to see a picture of it.</p> 
+                            <p><a href="#" onmouseover="showImage('apple')">Apple</a></p> 
+                            <p><a href="#" onmouseover="showImage('banana')">Banana</a></p> 
+                            <p><a href="#" onmouseover="showImage('orange')">Orange</a></p> 
+                            <img id="image" src="blank.jpg" alt="fruit" /> 
+                        </body>
+                        <script>
+                            function openwindow1()
+                        {
+                        var myWindow1 = window.open("", "myWindow", "width=300, height=200");
+                        myWindow1.document.write("An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.");
+                        }
+                        function openwindow2()
+                        {
+                        var myWindow2 = window.open("", "myWindow", "width=300, height=200");
+                        myWindow2.document.write("A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.");
+                        }
+                        function openwindow3()
+                        {
+                        var myWindow3 = window.open("", "myWindow", "width=300, height=200");
+                        myWindow3.document.write("An orange is a fruit of various citrus species in the family Rutaceae ); it primarily refers to Citrus × sinensis, which is also called sweet orange");
+                        }
+
+                        </script>
+                         </html>

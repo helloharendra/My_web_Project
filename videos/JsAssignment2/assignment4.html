@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="openWin()">Open window</button>
+<button onclick="closeWin()">Close Window</button>
+
+<script>
+let myWindow;
+
+function openWin() {
+  myWindow = window.open("", "", "width=800,height=500");
+  myWindow.document.write(" Hi I am Harendra, this is my first window. Thank You")
+}
+
+function closeWin() {
+  myWindow.close();
+}
+</script>
+
+</body>
+</html>

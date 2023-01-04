@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html> 
+    <head>
+        <title>Fruit</title>
+         <script type="text/javascript">
+          function showImage(fruit) { 
+            if (fruit == "apple")  { 
+                document.getElementById("image").src = "./images/apple.jpeg"; 
+            }
+                 else if (fruit == "banana") {
+                     document.getElementById("image").src = "./images/banana.jpeg";
+                     }
+                      else if (fruit == "orange") {
+                         document.getElementById("image").src = "./images/orange.jpeg"; 
+                        } 
+                         } </script> </head>
+                          <body style="text-align: center;"> <h1>Fruit</h1> 
+                            <p>Roll over the name of a fruit to see a picture of it.</p> 
+                            <p><a href="#" onmouseover="showImage('apple')">Apple</a></p> 
+                            <p><a href="#" onmouseover="showImage('banana')">Banana</a></p> 
+                            <p><a href="#" onmouseover="showImage('orange')">Orange</a></p> 
+                            <img id="image" src="blank.jpg" alt="fruit" /> 
+                        </body>
+                         </html>
